@@ -1,6 +1,6 @@
 {
-  "short_name": "iPeach - Timeline",
-  "name": "iPeach timeline profile",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
