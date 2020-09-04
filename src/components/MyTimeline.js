@@ -40,10 +40,10 @@ function MyTimeline() {
           <TimelineContent>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" component="h1">
-               2012 : Graduated
+               2012
               </Typography>
               <Typography>
-                at Kasetsart University in Information Technology
+                Grauated from Bachelor of Science in Information Technology at Kasetsart University
               </Typography>
             </Paper>
           </TimelineContent>
@@ -58,9 +58,9 @@ function MyTimeline() {
           <TimelineContent>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" component="h1">
-               2012 - 2013 Prosoftexpress company
+               2012 - 2013
               </Typography>
-              <Typography>Start first job as a junior programmer</Typography>
+              <Typography>Junior programmer at Prosoftexpress company</Typography>
             </Paper>
           </TimelineContent>
         </TimelineItem>
@@ -74,9 +74,9 @@ function MyTimeline() {
           <TimelineContent>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" component="h1">
-                2013 - 2015 : Phillips capital (thailand) public limited company
+                2013 - 2015
               </Typography>
-              <Typography>Programmer analyst</Typography>
+              <Typography>Programmer analyst at Phillips capital (thailand) public limited company</Typography>
             </Paper>
           </TimelineContent>
         </TimelineItem>
@@ -89,9 +89,9 @@ function MyTimeline() {
           <TimelineContent>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" component="h1">
-               2015 - now : Bank of Krungsri ayudhya public company limited
+               2015 - now
               </Typography>
-              <Typography>as a Software developer</Typography>
+              <Typography>Senior software developer at Bank of Krungsri ayudhya public company limited</Typography>
             </Paper>
           </TimelineContent>
         </TimelineItem>

@@ -1,28 +1,51 @@
 import React from "react";
 import "./App.css";
 import MyTimeline from "./components/MyTimeline";
-import BottomMenu from "./components/BottomMenu";
 import Personal from "./components/Personal";
+import BottomMenu from "./components/BottomMenu";
+import HeaderMenu from "./components/HeaderMenu";
 import Box from "@material-ui/core/Box";
+// import { positions } from "@material-ui/system";
+import { makeStyles } from "@material-ui/core/styles";
+import Skills from "./components/Skills";
+
+const useStyles = makeStyles({
+  root: { maxWidth: "850px" },
+});
 
 function App() {
+  const classes = useStyles();
+
   return (
     <div style={{ width: "100%" }}>
       <Box
         display="flex"
-        flexDirection="column"
+        flexDirection="row"
         flexWrap="wrap"
         justifyContent="center"
         alignItems="flex-start"
+        alignContent="flex-start"
+        minHeight="100%"
       >
-        <Box>
-          <Personal />
+        {/* header */}
+        <Box style={{ width: "100%"}}>
+          <HeaderMenu />
         </Box>
-        <Box p={1}>
-          <MyTimeline />
+        {/* content */}
+        <Box className={classes.root}  style={{ width: "100%"}}>
+          <Box m={2}>
+            <Personal />
+          </Box>
+          <Box m={2} display="flex" justifyContent="center">
+            <Skills />
+          </Box>
+          <Box m={2}>
+            <MyTimeline />
+          </Box>
         </Box>
-        <Box>
-          <BottomMenu class="footer" />
+        {/* footer */}
+        <Box style={{ width: "100%"}}>
+          <BottomMenu />
         </Box>
       </Box>
     </div>
