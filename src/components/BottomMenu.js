@@ -22,7 +22,7 @@ function BottomMenu() {
         onChange={(event, newValue) => {
           setValue(newValue);
         }}
-        showLabels
+        showLabels={true}
         className={classes.root}
       >
         <BottomNavigationAction label="Me" icon={<PermIdentityIcon />} />

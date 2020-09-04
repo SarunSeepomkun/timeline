@@ -13,8 +13,6 @@ function Personal(){
 Software Developer
  095-920-6644
  Sarunseepomkun@gmail.com
-
- Software Developer for 8 years participating in the complete product development lifecycle of successfully launched applications.Enthusiastic new programming technology.
           </Typography>
         </Container>
       </React.Fragment>

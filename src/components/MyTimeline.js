@@ -32,7 +32,7 @@ function MyTimeline() {
       <Timeline align="alternate">
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot>
+            <TimelineDot color="primary">
               <SchoolIcon />
             </TimelineDot>
             <TimelineConnector />
@@ -50,7 +50,7 @@ function MyTimeline() {
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot>
+            <TimelineDot color="primary">
               <ChildCareIcon />
             </TimelineDot>
             <TimelineConnector />
@@ -82,7 +82,7 @@ function MyTimeline() {
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot color="primary" variant="outlined">
+            <TimelineDot color="primary">
               <WorkIcon />
             </TimelineDot>
           </TimelineSeparator>
