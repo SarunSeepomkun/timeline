@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import MyTimeline from "./components/MyTimeline";
 import Personal from "./components/Personal";
+import Skills from "./components/Skills";
 // import BottomMenu from "./components/BottomMenu";
 import HeaderMenu from "./components/HeaderMenu";
 import Box from "@material-ui/core/Box";
@@ -35,7 +36,9 @@ function App() {
           <Box m={2}>
             <Personal />
           </Box>
-
+          <Box m={2} display="flex" justifyContent="center">
+            <Skills />
+          </Box>
           <Box m={2}>
             <MyTimeline />
           </Box>
