@@ -7,7 +7,7 @@ function Personal(){
     return(
         <React.Fragment>
         <CssBaseline />
-        <Container fixed>
+        <Container>
           <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '50vh' }} >
           SARUN SEEPOMKUN
 Software Developer

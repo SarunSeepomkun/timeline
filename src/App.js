@@ -13,7 +13,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
-  root: { maxWidth: "375px" },
+  root: { width:"100%", maxWidth: "850px" },
 });
 
 function App() {
