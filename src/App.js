@@ -10,7 +10,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Skills from "./components/Skills";
 
 const useStyles = makeStyles({
-  root: { maxWidth: "850px" },
+  root: { maxWidth: "850px"}
 });
 
 function App() {
@@ -36,7 +36,7 @@ function App() {
           <Box m={2}>
             <Personal />
           </Box>
-          <Box m={2} display="flex" justifyContent="center">
+          <Box m={2} display="flex" justifyContent="center" flexWrap="wrap">
             <Skills />
           </Box>
           <Box m={2}>
