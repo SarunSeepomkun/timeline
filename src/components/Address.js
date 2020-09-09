@@ -21,7 +21,7 @@ function Address() {
       >
         <PersonPinCircleIcon
           color="secondary"
-          style={{ width: "6vh", height: "6vh" }}
+          style={{ width: "6vh", height: "5vh" }}
           lat={defaultProps.center.lat}
           lng={defaultProps.center.lng}
         ></PersonPinCircleIcon>

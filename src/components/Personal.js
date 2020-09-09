@@ -58,6 +58,7 @@ function Personal() {
           </div>
         </CardContent>
       </div>
+
     </Card>
   );
 }
