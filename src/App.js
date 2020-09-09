@@ -8,6 +8,7 @@ import HeaderMenu from "./components/HeaderMenu";
 import Box from "@material-ui/core/Box";
 // import { positions } from "@material-ui/system";
 import { makeStyles } from "@material-ui/core/styles";
+import Address from './components/Address';
 
 const useStyles = makeStyles({
   root: { width: "100%", maxWidth: "850px" },
@@ -24,7 +25,7 @@ function App() {
         flexWrap="wrap"
         justifyContent="center"
         alignItems="flex-start"
-        alignContent="flex-start"
+        alignContent="flex-start" 
         minHeight="100%"
       >
         {/* header */}
@@ -41,6 +42,9 @@ function App() {
           </Box>
           <Box m={2}>
             <MyTimeline />
+          </Box>
+          <Box m={2}>
+          <Address />
           </Box>
         </Box>
         {/* footer */}
