@@ -9,3 +9,8 @@
     transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     background-color: #fff;
 }
+
+.container__timeline *
+{
+    padding: 2px;
+}
