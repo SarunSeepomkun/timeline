@@ -1,6 +1,5 @@
 import React from "react";
-import { Box } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
+import "./MyTimeline.css";
 import Timeline from "@material-ui/lab/Timeline";
 import TimelineItem from "@material-ui/lab/TimelineItem";
 import TimelineSeparator from "@material-ui/lab/TimelineSeparator";
@@ -16,20 +15,10 @@ import ChildCareIcon from "@material-ui/icons/ChildCare";
 import WorkIcon from "@material-ui/icons/Work";
 import Link from "@material-ui/core/Link";
 
-const useStyles = makeStyles((theme) => ({
-  paper: {
-    padding: "18px 5px",
-  },
-  secondaryTail: {
-    backgroundColor: theme.palette.secondary.main,
-  },
-}));
-
 function MyTimeline() {
-  const classes = useStyles();
 
   return (
-    <Box display="flex">
+    <div className="container__timeline">
       <Timeline align="alternate">
         <TimelineItem>
           <TimelineSeparator>
@@ -39,7 +28,7 @@ function MyTimeline() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            <Paper elevation={3} className={classes.paper}>
+            <Paper elevation={3}>
               <Typography variant="h6" component="h1">
                 2012
               </Typography>
@@ -59,7 +48,7 @@ function MyTimeline() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            <Paper elevation={3} className={classes.paper}>
+            <Paper elevation={3}>
               <Typography variant="h6" component="h1">
                 2012 - 2013
               </Typography>
@@ -77,7 +66,7 @@ function MyTimeline() {
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
-            <Paper elevation={3} className={classes.paper}>
+            <Paper elevation={3}>
               <Typography variant="h6" component="h1">
                 2013 - 2015
               </Typography>
@@ -95,7 +84,7 @@ function MyTimeline() {
             </TimelineDot>
           </TimelineSeparator>
           <TimelineContent>
-            <Paper elevation={3} className={classes.paper}>
+            <Paper elevation={3}>
               <Typography variant="h6" component="h1">
                 2015 - now
               </Typography>
@@ -107,7 +96,7 @@ function MyTimeline() {
           </TimelineContent>
         </TimelineItem>
       </Timeline>
-    </Box>
+    </div>
   );
 }
 

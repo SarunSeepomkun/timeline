@@ -2,6 +2,7 @@ import React from "react";
 import GoogleMapReact from "google-map-react";
 // import HomeIcon from '@material-ui/icons/Home';
 import PersonPinCircleIcon from "@material-ui/icons/PersonPinCircle";
+import './Address.css';
 
 const defaultProps = {
   center: {
@@ -13,7 +14,7 @@ const defaultProps = {
 
 function Address() {
   return (
-    <div style={{ height: "70vh", width: "100%" }}>
+    <div className="container__address">
       <GoogleMapReact
         bootstrapURLKeys={{ key: "AIzaSyBVoVuCh0rFVpS7Qd--jDYNZeTZMiHKnu0" }}
         defaultCenter={defaultProps.center}
