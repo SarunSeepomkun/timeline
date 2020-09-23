@@ -1,0 +1,24 @@
+
+.app__container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    background: #C9D6FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+.app__container > * {
+ margin: 0.5rem;
+}
+
+.app_content{
+    max-width: 850px;
+}
+
+.app_content > * {
+    margin: 0.5rem;
+   }
