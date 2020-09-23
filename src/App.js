@@ -4,7 +4,7 @@ import MyTimeline from "./components/MyTimeline";
 import Personal from "./components/Personal";
 import Skills from "./components/Skills";
 // import BottomMenu from "./components/BottomMenu";
-import HeaderMenu from "./components/HeaderMenu";
+// import HeaderMenu from "./components/HeaderMenu";
 // import { positions } from "@material-ui/system";
 import Address from './components/Address';
 
