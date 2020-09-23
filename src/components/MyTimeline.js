@@ -54,6 +54,7 @@ function MyTimeline() {
               </Typography>
               <Typography>
                 Junior programmer at Prosoftexpress company
+                <Link component="button" variant="body2" onClick={() => { console.info("I'm a button."); }}> Read more</Link>
               </Typography>
             </Paper>
           </TimelineContent>
@@ -72,7 +73,7 @@ function MyTimeline() {
               </Typography>
               <Typography>
                 Programmer analyst at Phillips capital (thailand) public limited
-                company
+                company<Link component="button" variant="body2" onClick={() => { console.info("I'm a button."); }}> Read more</Link>
               </Typography>
             </Paper>
           </TimelineContent>
@@ -90,7 +91,7 @@ function MyTimeline() {
               </Typography>
               <Typography>
                 Senior software developer at Bank of Krungsri ayudhya public
-                company limited
+                company limited<Link component="button" variant="body2" onClick={() => { console.info("I'm a button."); }}> Read more</Link>
               </Typography>
             </Paper>
           </TimelineContent>
