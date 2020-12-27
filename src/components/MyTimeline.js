@@ -35,6 +35,7 @@ function MyTimeline() {
               <Typography>
                 Grauated from Bachelor of Science in Information Technology at
                 Kasetsart University
+              
                 <Link component="button" variant="body2" onClick={() => { console.info("I'm a button."); }}> Read more</Link>
               </Typography>
             </Paper>
@@ -91,7 +92,8 @@ function MyTimeline() {
               </Typography>
               <Typography>
                 Senior software developer at Bank of Krungsri ayudhya public
-                company limited<Link component="button" variant="body2" onClick={() => { console.info("I'm a button."); }}> Read more</Link>
+                company limited
+                <Link component="button" variant="body2" onClick={() => { console.info("I'm a button."); }}> Read more</Link>
               </Typography>
             </Paper>
           </TimelineContent>
